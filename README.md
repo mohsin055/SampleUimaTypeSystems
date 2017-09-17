@@ -1,0 +1,1 @@
+Sample UIMA type systems
