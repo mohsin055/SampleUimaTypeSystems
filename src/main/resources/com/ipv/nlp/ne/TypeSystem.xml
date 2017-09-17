@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>TypeSystem</name>
+  <description/>
+  <version>1.0</version>
+  <vendor/>
+  <imports>
+    <import name="com.ipv.nlp.ne.type.Ace2005Document"/>
+    <import name="com.ipv.nlp.ne.type.Chunk"/>
+    <import name="com.ipv.nlp.ne.type.GazetteerNamedEntityMention"/>
+    <import name="com.ipv.nlp.ne.type.NamedEntity"/>
+    <import name="com.ipv.nlp.ne.type.NamedEntityClass"/>
+    <import name="com.ipv.nlp.ne.type.NamedEntityMention"/>
+    <import name="com.ipv.nlp.token.type.Token"/>
+    <import name="com.ipv.nlp.token.type.Sentence"/>
+  </imports>
+</typeSystemDescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>TypeSystem</name>
+  <description/>
+  <version>1.0</version>
+  <vendor/>
+  <imports>
+    <import name="com.ipv.nlp.token.TypeSystem"/>
+    <import name="com.ipv.nlp.syntax.constituent.TypeSystem"/>
+    <import name="com.ipv.nlp.ne.TypeSystem"/>
+    <import name="com.ipv.nlp.srl.type.Chunk"/>
+    <import name="com.ipv.nlp.srl.type.Argument"/>
+    <import name="com.ipv.nlp.srl.type.SemanticArgument"/>
+    <import name="com.ipv.nlp.srl.type.Predicate"/>
+  </imports>
+</typeSystemDescription>

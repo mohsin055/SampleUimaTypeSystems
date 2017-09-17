@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>DependencyNode</name>
+  <description/>
+  <version>1.0</version>
+  <vendor/>
+  <imports>
+    <import name="com.ipv.nlp.syntax.dependency.type.DependencyRelation"/>
+    <import name="com.ipv.nlp.score.type.TypeSystem"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>com.ipv.nlp.syntax.dependency.type.DependencyNode</name>
+      <description/>
+      <supertypeName>com.ipv.nlp.score.type.ScoredAnnotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>HeadRelations</name>
+          <description/>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>com.ipv.nlp.syntax.dependency.type.DependencyRelation</elementType>
+        </featureDescription>
+        <featureDescription>
+          <name>ChildRelations</name>
+          <description/>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>com.ipv.nlp.syntax.dependency.type.DependencyRelation</elementType>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>
